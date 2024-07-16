@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hames's Harmless Hamburgers</title>
+ </title>
+  
+    <link rel="icon" href="Logo.png" 
+          type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: Yellow;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: Black;
+            text-align: center;
+            padding: 10px;
+        }
+        header h1 {
+            font-size: 36px;
+            color: Red;
+            margin: 0;
+        }
+        .logo {
+            width: 300px;
+            height: 350px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .logo img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: Black;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: Cyan;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+        .menu {
+            background-color: Cyan;
+            color: Red;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+	.ma {
+            background-color: Cyan;
+            color: Green;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+	 }
+        .map {
+            width: 600px;
+            height: 200px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .map img {
+            max-width: 1000%;
+            max-height: 1000%;
+            display: block;
+            margin: 0 auto;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: cyan;
+            min-width: 160px;
+            z-index: 1;
+            color: red;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hames's Harmless Hamburgers</h1>
+        <div class="logo">
+	    <li><a href="index.html"> <img src="logo.png" alt="Logo"></a><li>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="index.html">Home</a>
+                <div class="dropdown-content">
+                    Here you will Find Our Menu
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="Loc.html">Location</a>
+                <div class="dropdown-content">
+                    This is where you can find us
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="About.html">About Us</a>
+                <div class="dropdown-content">
+                    Learn all about us
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="Cont.html">Contact</a>
+                <div class="dropdown-content">
+                    Learn how to Contact us
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="Kids.html">Kids</a>
+                <div class="dropdown-content">
+                    Kids GO HERE OR ELSE
+                </div>
+            </li>
+        </ul>
+    </nav>
+    </section>
+    <div class="menu">
+        <h1>Location:</h1>
+	<h2> somewhere here<h2>
+	   <img src="map.png" alt="map">
+    </div>
+</body>
+</html>
